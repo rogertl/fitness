@@ -10,10 +10,18 @@
 		DB83AED71C16D0E900840F7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB83AED61C16D0E900840F7C /* AppDelegate.swift */; };
 		DB83AED91C16D0E900840F7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB83AED81C16D0E900840F7C /* ViewController.swift */; };
 		DB83AEDC1C16D0E900840F7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB83AEDA1C16D0E900840F7C /* Main.storyboard */; };
-		DB83AEDE1C16D0E900840F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB83AEDD1C16D0E900840F7C /* Assets.xcassets */; };
 		DB83AEE11C16D0E900840F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB83AEDF1C16D0E900840F7C /* LaunchScreen.storyboard */; };
 		DB83AEEC1C16D0E900840F7C /* FitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB83AEEB1C16D0E900840F7C /* FitnessTests.swift */; };
 		DB83AEF71C16D0E900840F7C /* FitnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB83AEF61C16D0E900840F7C /* FitnessUITests.swift */; };
+		DB83AF051C16D15F00840F7C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB83AF041C16D15F00840F7C /* MapKit.framework */; };
+		DBB1B9C41C18039D00F492AF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB1B9C31C18039D00F492AF /* CoreLocation.framework */; };
+		DBB1B9CC1C181CCA00F492AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB1B9CB1C181CCA00F492AF /* Images.xcassets */; };
+		DBB1BA081C18303E00F492AF /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB1BA071C18303E00F492AF /* UserViewController.swift */; };
+		DBB1BA0D1C19139900F492AF /* ae9fe6fe7d660ea07e1b578de963a2f1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBB1BA0A1C19139900F492AF /* ae9fe6fe7d660ea07e1b578de963a2f1.jpg */; };
+		DBB1BA0E1C19139900F492AF /* 5563cda0c41a559019555e647a7d0a74.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBB1BA0B1C19139900F492AF /* 5563cda0c41a559019555e647a7d0a74.jpg */; };
+		DBB1BA0F1C19139900F492AF /* 1d933d562d84c3b747af8ee06436da79.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBB1BA0C1C19139900F492AF /* 1d933d562d84c3b747af8ee06436da79.jpg */; };
+		DBB1BA151C19170A00F492AF /* showViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB1BA141C19170A00F492AF /* showViewController.swift */; };
+		DBB1BA171C192B2200F492AF /* launchscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB1BA161C192B2200F492AF /* launchscreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +46,6 @@
 		DB83AED61C16D0E900840F7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB83AED81C16D0E900840F7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB83AEDB1C16D0E900840F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DB83AEDD1C16D0E900840F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB83AEE01C16D0E900840F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB83AEE21C16D0E900840F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB83AEE71C16D0E900840F7C /* FitnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +54,15 @@
 		DB83AEF21C16D0E900840F7C /* FitnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB83AEF61C16D0E900840F7C /* FitnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessUITests.swift; sourceTree = "<group>"; };
 		DB83AEF81C16D0E900840F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB83AF041C16D15F00840F7C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DBB1B9C31C18039D00F492AF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DBB1B9CB1C181CCA00F492AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DBB1BA071C18303E00F492AF /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		DBB1BA0A1C19139900F492AF /* ae9fe6fe7d660ea07e1b578de963a2f1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ae9fe6fe7d660ea07e1b578de963a2f1.jpg; sourceTree = "<group>"; };
+		DBB1BA0B1C19139900F492AF /* 5563cda0c41a559019555e647a7d0a74.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5563cda0c41a559019555e647a7d0a74.jpg; sourceTree = "<group>"; };
+		DBB1BA0C1C19139900F492AF /* 1d933d562d84c3b747af8ee06436da79.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1d933d562d84c3b747af8ee06436da79.jpg; sourceTree = "<group>"; };
+		DBB1BA141C19170A00F492AF /* showViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showViewController.swift; sourceTree = "<group>"; };
+		DBB1BA161C192B2200F492AF /* launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchscreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBB1B9C41C18039D00F492AF /* CoreLocation.framework in Frameworks */,
+				DB83AF051C16D15F00840F7C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +95,8 @@
 		DB83AECA1C16D0E900840F7C = {
 			isa = PBXGroup;
 			children = (
+				DBB1B9C31C18039D00F492AF /* CoreLocation.framework */,
+				DB83AF041C16D15F00840F7C /* MapKit.framework */,
 				DB83AED51C16D0E900840F7C /* Fitness */,
 				DB83AEEA1C16D0E900840F7C /* FitnessTests */,
 				DB83AEF51C16D0E900840F7C /* FitnessUITests */,
@@ -100,9 +120,12 @@
 				DB83AED61C16D0E900840F7C /* AppDelegate.swift */,
 				DB83AED81C16D0E900840F7C /* ViewController.swift */,
 				DB83AEDA1C16D0E900840F7C /* Main.storyboard */,
-				DB83AEDD1C16D0E900840F7C /* Assets.xcassets */,
 				DB83AEDF1C16D0E900840F7C /* LaunchScreen.storyboard */,
 				DB83AEE21C16D0E900840F7C /* Info.plist */,
+				DBB1B9CB1C181CCA00F492AF /* Images.xcassets */,
+				DBB1BA071C18303E00F492AF /* UserViewController.swift */,
+				DBB1BA111C1913D200F492AF /* startpic */,
+				DBB1BA141C19170A00F492AF /* showViewController.swift */,
 			);
 			path = Fitness;
 			sourceTree = "<group>";
@@ -123,6 +146,17 @@
 				DB83AEF81C16D0E900840F7C /* Info.plist */,
 			);
 			path = FitnessUITests;
+			sourceTree = "<group>";
+		};
+		DBB1BA111C1913D200F492AF /* startpic */ = {
+			isa = PBXGroup;
+			children = (
+				DBB1BA0A1C19139900F492AF /* ae9fe6fe7d660ea07e1b578de963a2f1.jpg */,
+				DBB1BA161C192B2200F492AF /* launchscreen.png */,
+				DBB1BA0B1C19139900F492AF /* 5563cda0c41a559019555e647a7d0a74.jpg */,
+				DBB1BA0C1C19139900F492AF /* 1d933d562d84c3b747af8ee06436da79.jpg */,
+			);
+			name = startpic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +227,11 @@
 				TargetAttributes = {
 					DB83AED21C16D0E900840F7C = {
 						CreatedOnToolsVersion = 7.1.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					DB83AEE61C16D0E900840F7C = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -229,9 +268,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBB1BA0E1C19139900F492AF /* 5563cda0c41a559019555e647a7d0a74.jpg in Resources */,
 				DB83AEE11C16D0E900840F7C /* LaunchScreen.storyboard in Resources */,
-				DB83AEDE1C16D0E900840F7C /* Assets.xcassets in Resources */,
+				DBB1B9CC1C181CCA00F492AF /* Images.xcassets in Resources */,
 				DB83AEDC1C16D0E900840F7C /* Main.storyboard in Resources */,
+				DBB1BA171C192B2200F492AF /* launchscreen.png in Resources */,
+				DBB1BA0D1C19139900F492AF /* ae9fe6fe7d660ea07e1b578de963a2f1.jpg in Resources */,
+				DBB1BA0F1C19139900F492AF /* 1d933d562d84c3b747af8ee06436da79.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +300,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB83AED91C16D0E900840F7C /* ViewController.swift in Sources */,
+				DBB1BA081C18303E00F492AF /* UserViewController.swift in Sources */,
 				DB83AED71C16D0E900840F7C /* AppDelegate.swift in Sources */,
+				DBB1BA151C19170A00F492AF /* showViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +441,7 @@
 		DB83AEFC1C16D0E900840F7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Fitness/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = crland.Fitness;
@@ -407,7 +452,7 @@
 		DB83AEFD1C16D0E900840F7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Fitness/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = crland.Fitness;
@@ -482,6 +527,7 @@
 				DB83AEFD1C16D0E900840F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB83AEFE1C16D0E900840F7C /* Build configuration list for PBXNativeTarget "FitnessTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +536,7 @@
 				DB83AF001C16D0E900840F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB83AF011C16D0E900840F7C /* Build configuration list for PBXNativeTarget "FitnessUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +545,7 @@
 				DB83AF031C16D0E900840F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
