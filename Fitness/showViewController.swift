@@ -8,7 +8,7 @@
 
 import UIKit
 
-class showViewController: UIViewController {
+class showViewController: UIViewController,UIScrollViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +22,7 @@ class showViewController: UIViewController {
     }
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var pageControl: UIPageControl!
+    @IBOutlet weak var rightButton: UIBarButtonItem!
     
     
     @IBAction func changePage(sender: AnyObject) {
@@ -30,10 +31,22 @@ class showViewController: UIViewController {
     
     @IBAction func onBack(sender: AnyObject) {
         dismissViewControllerAnimated(true, completion: {
-            NSLog("返回按钮点击")
+            NSLog("返回主界面")
+            
         })
     }
     
+    @IBAction func onHiddenClick(sender: AnyObject) {
+        if (self.view.hidden) {
+            self.view.hidden = false
+            rightButton.title = "显示"
+        }
+        else{
+            self.view.hidden = true
+            rightButton.title = "隐藏"
+        }
+        
+    }
 
     /*
     // MARK: - Navigation

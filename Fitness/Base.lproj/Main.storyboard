@@ -137,9 +137,15 @@
                                 <action selector="onBack:" destination="TKC-fx-DAR" id="qQe-G8-0MT"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="隐藏" id="nIX-kJ-nTI">
+                            <connections>
+                                <action selector="onHiddenClick:" destination="TKC-fx-DAR" id="0nR-v5-kX4"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="pageControl" destination="B0h-DM-7jX" id="c6k-32-oWQ"/>
+                        <outlet property="rightButton" destination="nIX-kJ-nTI" id="exl-c2-muC"/>
                         <outlet property="scrollView" destination="wcd-Qp-mqd" id="HT0-Yf-LnE"/>
                     </connections>
                 </viewController>
@@ -557,7 +563,13 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="AnyFitness" id="ipp-UT-zIJ"/>
+                    <navigationItem key="navigationItem" title="AnyFitness" id="ipp-UT-zIJ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="lbX-HT-CvR">
+                            <connections>
+                                <action selector="onCamera:" destination="BYZ-38-t0r" id="dhd-Qp-eSI"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="mapView" destination="zcu-G9-6yB" id="69S-EH-jfv"/>
                         <outlet property="txtalt" destination="7gL-Ge-BND" id="Q4f-cC-GpZ"/>

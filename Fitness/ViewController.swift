@@ -10,7 +10,8 @@ import UIKit
 import CoreLocation
 import MapKit
 
-class ViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDelegate{
+
+class ViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDelegate, UIImagePickerControllerDelegate,UINavigationControllerDelegate{
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
@@ -85,6 +86,24 @@ class ViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDelega
             as String
         
         
+    }
+    @IBAction func onCamera(sender: AnyObject) {
+        if UIImagePickerController.isSourceTypeAvailable(.Camera){
+            //创建图片控制器
+            let picker = UIImagePickerController()
+            //设置代理
+            picker.delegate = self
+            //设置来源
+            picker.sourceType = UIImagePickerControllerSourceType.Camera
+            //允许编辑
+            picker.allowsEditing = true
+            //打开相机
+            self.presentViewController(picker, animated: true, completion: { () -> Void in
+                
+            })
+        }else{
+            print("找不到相机")
+        }
     }
 }
 

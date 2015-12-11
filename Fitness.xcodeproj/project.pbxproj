@@ -63,6 +63,7 @@
 		DBB1BA0C1C19139900F492AF /* 1d933d562d84c3b747af8ee06436da79.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1d933d562d84c3b747af8ee06436da79.jpg; sourceTree = "<group>"; };
 		DBB1BA141C19170A00F492AF /* showViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showViewController.swift; sourceTree = "<group>"; };
 		DBB1BA161C192B2200F492AF /* launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchscreen.png; sourceTree = "<group>"; };
+		DBB1BA181C1A992C00F492AF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		DB83AECA1C16D0E900840F7C = {
 			isa = PBXGroup;
 			children = (
+				DBB1BA181C1A992C00F492AF /* AVFoundation.framework */,
 				DBB1B9C31C18039D00F492AF /* CoreLocation.framework */,
 				DB83AF041C16D15F00840F7C /* MapKit.framework */,
 				DB83AED51C16D0E900840F7C /* Fitness */,
