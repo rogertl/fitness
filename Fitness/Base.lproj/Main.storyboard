@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -15,6 +16,7 @@
                         <viewControllerLayoutGuide type="bottom" id="ijt-Mm-OQj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Zvv-dE-A35">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="B0h-DM-7jX">
@@ -108,12 +110,12 @@
                                 <exclude reference="wcd-Qp-mqd"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="pMI-eL-dCG"/>
                                 <exclude reference="Kau-IQ-FU3"/>
                                 <exclude reference="XJa-my-oIq"/>
                                 <exclude reference="ZsE-Vo-jiy"/>
                                 <exclude reference="bX6-91-Qcv"/>
                                 <exclude reference="w11-Ph-8zr"/>
-                                <exclude reference="pMI-eL-dCG"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,12 +124,12 @@
                                 <include reference="wcd-Qp-mqd"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="pMI-eL-dCG"/>
                                 <include reference="Kau-IQ-FU3"/>
                                 <include reference="XJa-my-oIq"/>
                                 <include reference="ZsE-Vo-jiy"/>
                                 <include reference="bX6-91-Qcv"/>
                                 <include reference="w11-Ph-8zr"/>
-                                <include reference="pMI-eL-dCG"/>
                             </mask>
                         </variation>
                     </view>
@@ -162,6 +164,7 @@
                         <viewControllerLayoutGuide type="bottom" id="TOl-BQ-P1j"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="n05-s9-Voh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="57S-l8-0UF">
@@ -216,10 +219,10 @@
                                     </mask>
                                     <mask key="constraints">
                                         <exclude reference="G2u-Ox-8Gq"/>
-                                        <exclude reference="hlg-Ow-b9s"/>
-                                        <exclude reference="VSe-wg-Wjt"/>
                                         <exclude reference="HR4-09-kfh"/>
                                         <exclude reference="JL6-yr-Yr5"/>
+                                        <exclude reference="VSe-wg-Wjt"/>
+                                        <exclude reference="hlg-Ow-b9s"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
@@ -228,10 +231,10 @@
                                     </mask>
                                     <mask key="constraints">
                                         <include reference="G2u-Ox-8Gq"/>
-                                        <include reference="hlg-Ow-b9s"/>
-                                        <include reference="VSe-wg-Wjt"/>
                                         <include reference="HR4-09-kfh"/>
                                         <include reference="JL6-yr-Yr5"/>
+                                        <include reference="VSe-wg-Wjt"/>
+                                        <include reference="hlg-Ow-b9s"/>
                                     </mask>
                                 </variation>
                             </scrollView>
@@ -251,12 +254,12 @@
                                 <exclude reference="Hj6-zx-VwN"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="eZH-pP-nhm"/>
-                                <exclude reference="XlC-Gs-kLJ"/>
+                                <exclude reference="hl4-wl-A8d"/>
                                 <exclude reference="4rb-lP-QQa"/>
                                 <exclude reference="9Yn-Jl-9RR"/>
+                                <exclude reference="XlC-Gs-kLJ"/>
                                 <exclude reference="ZP6-K3-7Fm"/>
-                                <exclude reference="hl4-wl-A8d"/>
+                                <exclude reference="eZH-pP-nhm"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -265,12 +268,12 @@
                                 <include reference="Hj6-zx-VwN"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="eZH-pP-nhm"/>
-                                <include reference="XlC-Gs-kLJ"/>
+                                <include reference="hl4-wl-A8d"/>
                                 <include reference="4rb-lP-QQa"/>
                                 <include reference="9Yn-Jl-9RR"/>
+                                <include reference="XlC-Gs-kLJ"/>
                                 <include reference="ZP6-K3-7Fm"/>
-                                <include reference="hl4-wl-A8d"/>
+                                <include reference="eZH-pP-nhm"/>
                             </mask>
                         </variation>
                     </view>
@@ -299,6 +302,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wnc-98-Fpx"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5Sv-a7-IQX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="yPB-TW-avs">
@@ -352,11 +356,11 @@
                                         <exclude reference="8B6-yC-Ute"/>
                                     </mask>
                                     <mask key="constraints">
-                                        <exclude reference="x7X-uR-vkA"/>
-                                        <exclude reference="SIm-fZ-aNp"/>
                                         <exclude reference="3Rh-cq-fFd"/>
                                         <exclude reference="I77-Ue-WAk"/>
                                         <exclude reference="R5d-Ch-Qyh"/>
+                                        <exclude reference="SIm-fZ-aNp"/>
+                                        <exclude reference="x7X-uR-vkA"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
@@ -364,11 +368,11 @@
                                         <include reference="8B6-yC-Ute"/>
                                     </mask>
                                     <mask key="constraints">
-                                        <include reference="x7X-uR-vkA"/>
-                                        <include reference="SIm-fZ-aNp"/>
                                         <include reference="3Rh-cq-fFd"/>
                                         <include reference="I77-Ue-WAk"/>
                                         <include reference="R5d-Ch-Qyh"/>
+                                        <include reference="SIm-fZ-aNp"/>
+                                        <include reference="x7X-uR-vkA"/>
                                     </mask>
                                 </variation>
                             </scrollView>
@@ -388,12 +392,12 @@
                                 <exclude reference="beC-1d-D9P"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="e5Z-OT-xtg"/>
+                                <exclude reference="4W0-NU-sYi"/>
                                 <exclude reference="GtC-gZ-naH"/>
                                 <exclude reference="Vde-Pc-RNG"/>
                                 <exclude reference="amv-ne-VI8"/>
                                 <exclude reference="jbI-jY-xha"/>
-                                <exclude reference="4W0-NU-sYi"/>
-                                <exclude reference="e5Z-OT-xtg"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -402,12 +406,12 @@
                                 <include reference="beC-1d-D9P"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="e5Z-OT-xtg"/>
+                                <include reference="4W0-NU-sYi"/>
                                 <include reference="GtC-gZ-naH"/>
                                 <include reference="Vde-Pc-RNG"/>
                                 <include reference="amv-ne-VI8"/>
                                 <include reference="jbI-jY-xha"/>
-                                <include reference="4W0-NU-sYi"/>
-                                <include reference="e5Z-OT-xtg"/>
                             </mask>
                         </variation>
                     </view>
@@ -535,6 +539,8 @@
                                 <exclude reference="zcu-G9-6yB"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="dG0-kU-7Re"/>
+                                <exclude reference="yiN-QW-XMf"/>
                                 <exclude reference="1nt-e6-PTc"/>
                                 <exclude reference="5yv-6z-ANG"/>
                                 <exclude reference="Egy-fI-G7V"/>
@@ -542,8 +548,6 @@
                                 <exclude reference="p0I-A8-pjm"/>
                                 <exclude reference="pwQ-Ve-fCU"/>
                                 <exclude reference="vNF-BN-lF0"/>
-                                <exclude reference="dG0-kU-7Re"/>
-                                <exclude reference="yiN-QW-XMf"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -551,6 +555,8 @@
                                 <include reference="zcu-G9-6yB"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="dG0-kU-7Re"/>
+                                <include reference="yiN-QW-XMf"/>
                                 <include reference="1nt-e6-PTc"/>
                                 <include reference="5yv-6z-ANG"/>
                                 <include reference="Egy-fI-G7V"/>
@@ -558,8 +564,6 @@
                                 <include reference="p0I-A8-pjm"/>
                                 <include reference="pwQ-Ve-fCU"/>
                                 <include reference="vNF-BN-lF0"/>
-                                <include reference="dG0-kU-7Re"/>
-                                <include reference="yiN-QW-XMf"/>
                             </mask>
                         </variation>
                     </view>
@@ -590,6 +594,7 @@
                         <viewControllerLayoutGuide type="bottom" id="LzK-MJ-mzW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="g3e-Vu-efg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用户登录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AnV-mx-XUU">

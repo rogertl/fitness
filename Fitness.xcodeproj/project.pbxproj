@@ -22,6 +22,7 @@
 		DBB1BA0F1C19139900F492AF /* 1d933d562d84c3b747af8ee06436da79.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBB1BA0C1C19139900F492AF /* 1d933d562d84c3b747af8ee06436da79.jpg */; };
 		DBB1BA151C19170A00F492AF /* showViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB1BA141C19170A00F492AF /* showViewController.swift */; };
 		DBB1BA171C192B2200F492AF /* launchscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB1BA161C192B2200F492AF /* launchscreen.png */; };
+		DBFFBE991C30F2F300EACAF4 /* Location-chengdu.gpx in Resources */ = {isa = PBXBuildFile; fileRef = DBFFBE981C30F2F300EACAF4 /* Location-chengdu.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		DBB1BA141C19170A00F492AF /* showViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showViewController.swift; sourceTree = "<group>"; };
 		DBB1BA161C192B2200F492AF /* launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchscreen.png; sourceTree = "<group>"; };
 		DBB1BA181C1A992C00F492AF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DBFFBE981C30F2F300EACAF4 /* Location-chengdu.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Location-chengdu.gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			children = (
 				DB83AED61C16D0E900840F7C /* AppDelegate.swift */,
 				DB83AED81C16D0E900840F7C /* ViewController.swift */,
+				DBFFBE981C30F2F300EACAF4 /* Location-chengdu.gpx */,
 				DB83AEDA1C16D0E900840F7C /* Main.storyboard */,
 				DB83AEDF1C16D0E900840F7C /* LaunchScreen.storyboard */,
 				DB83AEE21C16D0E900840F7C /* Info.plist */,
@@ -275,6 +278,7 @@
 				DBB1B9CC1C181CCA00F492AF /* Images.xcassets in Resources */,
 				DB83AEDC1C16D0E900840F7C /* Main.storyboard in Resources */,
 				DBB1BA171C192B2200F492AF /* launchscreen.png in Resources */,
+				DBFFBE991C30F2F300EACAF4 /* Location-chengdu.gpx in Resources */,
 				DBB1BA0D1C19139900F492AF /* ae9fe6fe7d660ea07e1b578de963a2f1.jpg in Resources */,
 				DBB1BA0F1C19139900F492AF /* 1d933d562d84c3b747af8ee06436da79.jpg in Resources */,
 			);

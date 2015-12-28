@@ -77,6 +77,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDelega
        
         
         let ViewRegions = MKCoordinateRegionMakeWithDistance(currentLocation.coordinate, 3000, 3000) // 设置当前坐标区域
+
         
         self.mapView.setRegion(ViewRegions, animated: true) //设置显示区域
         
@@ -84,6 +85,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDelega
         self.txtlat.text = NSString(format: "%3.5f", currentLocation.coordinate.latitude)         as String
         self.txtalt.text = NSString(format: "%3.5f米", currentLocation.altitude)
             as String
+        
         
         
     }
